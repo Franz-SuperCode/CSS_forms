@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgb(233, 233, 233);
+    width: 17rem;
+    height: 13rem;
+}
+
+label {
+    background-color: rgb(43, 168, 126);
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem 0px;
+    width: 100%;
+}
+
+input[type="text"],
+textarea {
+    padding: 0.3rem;
+    margin: 0.5rem 0.5rem 0rem 0.5rem;
+    border: 1px rgb(183, 182, 182) solid;
+}
+
+
+textarea::placeholder {
+    font-family: sans-serif;
+}
+
+button {
+    padding: 0.3rem;
+    margin: 0.6rem;
+    background-color: rgb(43, 168, 126);
+    color: #fff;
+    border: none;
+    font-size: 0.7rem;
+}

@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    text-align: center;
+    margin: 3rem auto;
+    color: #fff;
+    background-color: black;
+    width: 30rem;
+}
+
+h1 {
+    padding-bottom: 1rem;
+}
+
+div a {
+    color: green;
+    padding-bottom: 2rem;
+
+}
+
+section {
+    padding: 2rem 0rem;
+}
+
+section a {
+    color: #fff;
+    padding: 1.2rem 5.5rem;
+    text-decoration: none;
+}
+
+.greenButton {
+    background-color: green;
+}
+
+.buttonHover:hover {
+    background-color: rgb(142, 203, 49);
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+.div_signUp {
+    flex-direction: row;
+    margin-right: 0px;
+}
+
+.input_signUp1 {
+    width: 100%;
+    margin: 1rem 0.5rem 1rem 1rem;
+
+}
+
+.input_signUp2 {
+    width: 100%;
+    margin: 1rem 1rem 1rem 0rem;
+}
+
+input {
+    padding: 0.5rem;
+    margin: 1rem;
+    background-color: black;
+    color: #fff;
+    border: solid white 1px;
+}
+
+.div_login_forgetPW {
+    align-items: flex-end;
+    padding: 1rem;
+}
+
+button {
+    word-spacing: 0.5rem;
+    font-size: 2rem;
+    align-self: center;
+    padding: 1rem;
+    width: 100%;
+    background-color: green;
+    color: #fff;
+    border: none;
+}

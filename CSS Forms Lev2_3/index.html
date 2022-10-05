@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form>
+        <fieldset>
+            <legend>Register form</legend>
+            <table>
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" placeholder="Name"></td>
+                </tr>
+                <tr>
+                    <td>Surname</td>
+                    <td><input type="text" placeholder="Surname"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="text" placeholder="Email"></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td>
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender">
+
+                        <label for="female">Female</label>
+                        <input type="radio" name="gender">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Picture</td>
+                    <td><input type="file"></td>
+                </tr>
+                <tr>
+                    <td>Country</td>
+                    <td>
+                        <select name="orte" id="">
+                            <option value="germany">Germany</option>
+                            <option value="france">France</option>
+                            <option value="italy">Italy</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Preffered languages</td>
+                    <td>
+                        <select name="languages" id="" multiple>
+                            <option value="HTML">HTML</option>
+                            <option value="CSS">CSS</option>
+                            <option value="JS">JS</option>
+                            <option value="React">React</option>
+                            <option value="React">Node.js</option>
+                            <option value="React">SCSS</option>
+                        </select>
+                        (To choose more than one use cmd key)
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Fieled of activity</td>
+                    <td>
+                        <label for="activity">IT</label>
+                        <input type="checkbox" name="activity" id="">
+
+                        <label for="activity">Design</label>
+                        <input type="checkbox" name="activity" id="">
+
+                        <label for="activity">Other</label>
+                        <input type="checkbox" name="activity" id="">
+                    </td>
+                </tr>
+
+                <tr>
+
+                    <td colspan="2">
+                        <button>Send</button>
+                        <button>Cancel</button>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
